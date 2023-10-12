@@ -1,7 +1,12 @@
-* {
+@font-face {
+    font-family: pop;
+    src: url(Poppins/Poppins-Medium.ttf);
+}
+
+body {
 
     font-weight: 600;
-    font-family: 'Poppins', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-family: pop;
 }
 
 p {
@@ -11,7 +16,7 @@ p {
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(90deg, rgb(210, 0, 252) 0%, rgba(101, 9, 121, 1) 51%, rgba(158, 0, 255, 1) 100%);
+    background: linear-gradient(to top, rgb(155, 122, 201) 0%, #89c2c8 100%);
     display: flex;
     justify-content: center;
     min-height: 100vh;
@@ -24,7 +29,6 @@ body {
     border-radius: 10px;
     padding: 30px;
     background-color: rgb(0, 0, 0);
-    box-shadow: 0px 0px 10px 1px #363636;
 }
 
 .emoji {
